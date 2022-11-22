@@ -1,0 +1,125 @@
+/* Reset styles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+img {
+  vertical-align: top;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  font-size: 16px;
+  /* default */
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	line-height: 1;
+	font-weight: 400;
+}
+.wrapper {
+	max-width: 1440px;
+	min-height: 100%;
+	overflow: hidden;
+	background-color: rgb(204, 194, 194);
+	padding: 210px;
+	margin: 0 auto;
+}
+/* --------------- */
+
+.promise 
+
+.promise__title {
+	background: url(../img/icons/Overline\ Mark.svg) 0 -2px no-repeat;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 24px;
+	align-items: center;
+	letter-spacing: 2.5px;
+	color: #5D62B5;
+	margin: 0 0 33px 0;
+	padding-left: 33px;
+}
+
+.promise__subtitle {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #000000;
+	margin: 0 0 68px 0;
+}
+
+.flex-conteiner {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: stretch;
+
+}
+
+.flex__element {
+	max-width: 324px;
+	display: flex;
+	margin: 0 0 24px 0;
+	padding-right: 23px;
+}
+
+.icon {
+	width: 63px;
+	height: 63px;
+}
+
+.item {
+	padding: 0 0 0 23px;
+}
+
+.item__title {
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 26px;
+	color: #F2726F;
+	margin: 0 0 20px 0;
+}
+
+.item__text {
+	max-width: 235px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
+}
